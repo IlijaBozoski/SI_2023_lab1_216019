@@ -62,9 +62,12 @@ Merge made by the 'ort' strategy.
    git push --force
    git checkout master
    git push --all
-27.git log
-28.git add .
+27.git log kopiram vo txt
+   dodavam 216019.txt
+   git add .
    git commit -m "Final commit"
+28.git push --all
+
 
 
    

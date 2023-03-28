@@ -63,6 +63,9 @@ Merge made by the 'ort' strategy.
    git checkout master
    git push --all
 27.git log
+28.git add .
+   git commit -m "Final commit"
+
 
    
 

@@ -1,0 +1,73 @@
+1.Done
+2.Done
+3.Done
+4.Done
+cd SI_2023_lab1_216019	  /vleguva vo dir 
+git init	/inicijalizira git
+5.git remote add origin https://github.com/IlijaBozoski/SI_2023_lab1_216019.git	/spojuva lokalen i remote dir  posledno e url na  remote dir
+6.Prvo pravime README.md file potoa
+git add .  / staged sostojba
+git commit -m " Initial commit"  /commit na file so komentar
+7.Odkako ke sozdademe java file 
+git add SILab1.java (ili git add .)
+git commit -m "Add java class"
+8.git push -u origin master
+  git push -u origin  bug1
+  git push -u origin  bug2
+  git push -u origin  bug3
+9.
+git branch bug1     /sozdava granka so ime bug1 
+git branch bug2	    /sozdava granka so ime bug2
+git branch bug3	    /sozdava granka so ime bug3
+10.
+git checkout bug1
+11.dodeka sme na branch bug1 
+<=  ---> <   //samo pomalo inaku n+1
+git add .
+git commit -m "Fix wrong loop for reading"
+12.git checkout bug2
+13.dodeka sme na branch bug2
+== ----> !=
+git add .
+git commit -m "Fix wrong condition in filterOddNumber"
+14.git checkout bug3
+15.dodeka sme na branch bug3
+int sum = 1;---------->int sum = 0;
+sum *= el;----------->sum += el;
+git add .
+git commit -m "Fix method sumEvenNumbers"
+16.Se naogam na bug 3 pa:
+   git checkout bug1
+   git push
+   git checkout bug2
+   git push
+   git checkout bug3
+   git push
+17.git checkout master
+18.Odkako sme na master
+git merge bug1
+Spojuvanjeto se odviva Fast-forward
+19.git push --all
+20.git merge bug2
+Merge made by the 'ort' strategy.
+21.git push --all
+22.git checkout bug3
+23.Odkako sme napravile git pull na master i znaeme deka e up to date
+   git checkout bug3
+   git rebase master     //Successfully rebased and updated refs/heads/bug3.24
+24.git checkout master
+25.git merge bug3
+   Fast-forward
+26.Prvo napraviv na grankata bug3 
+   git push --force
+   git checkout master
+   git push --all
+27.git log
+
+   
+
+
+
+
+
+
